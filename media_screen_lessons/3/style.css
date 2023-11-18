@@ -1,0 +1,11 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+img{
+    width: 500px;
+}
