@@ -7,13 +7,20 @@
     <title>Document</title>
 </head>
 
-<body>
+<body id="a">
+
+    <button id="myButton" onclick="welcome()">Change Color</button>
 
     <!-- Задача: Создайте кнопку с id="myButton". Допишите JavaScript-код,
      чтобы при клике на кнопку изменялся цвет фона страницы на красный. -->
-    <button id="myButton">Нажми меня</button>
+
     <script>
-        // Ваш код здесь
+        
+        function welcome(){
+            const bg = document.getElementById('a')
+            bg.style.background = "red";
+        }
+
     </script>
 </body>
 
